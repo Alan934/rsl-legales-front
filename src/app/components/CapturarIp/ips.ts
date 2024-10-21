@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Home({ ip }: { ip: string }) {
   const [postIp] = usePostIpMutation();
 
-  useEffect(() => {
+  /*useEffect(() => {
     const sendIpToBackend = async () => {
       try {
         // Enviar la IP capturada al backend
@@ -18,7 +18,25 @@ export default function Home({ ip }: { ip: string }) {
     };
   
     sendIpToBackend(); // Enviar la IP al cargar la página
-  }, [ip, postIp]);
+  }, [ip, postIp]);*/
+  useEffect(() => {
+    const fetchIp = async () => {
+      try {
+        const response = await fetch('https://api64.ipify.org?format=json');
+        const data = await response.json();
+        const ip = data.ip;
+        console.log('IP obtenida de la API pública:', ip);
+  
+        await postIp({ ip }).unwrap();
+        console.log('IP enviada al backend:', ip);
+      } catch (error) {
+        console.error('Error al obtener o enviar la IP:', error);
+      }
+    };
+  
+    fetchIp();
+  }, [postIp]);
+
   console.log("IP enviada"+ ip);
   return null; // No retorna ninguna vista
 }
