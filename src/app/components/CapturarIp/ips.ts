@@ -18,7 +18,7 @@ export default function Home({ ip }: { ip: string }) {
 
     sendIpToBackend(); // Enviar la IP al cargar la página
   }, [ip, postIp]);
-
+  console.log("IP enviada"+ ip);
   return null; // No retorna ninguna vista
 }
 

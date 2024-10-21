@@ -23,5 +23,6 @@ export const ipApi = createApi({
     }),
   }),
 });
+console.log("ipApi "+ipApi);
 
 export const { usePostIpMutation } = ipApi;
