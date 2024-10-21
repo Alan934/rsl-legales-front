@@ -11,7 +11,7 @@ type ResponseType = {
 export const ipApi = createApi({
   reducerPath: "ipApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://rsl-legales-mu.vercel.app/api/users/ip",
+    baseUrl: "https://rsl-legales-mu.vercel.app/api/ip",
   }),
   endpoints: (builder) => ({
     postIp: builder.mutation<ResponseType, Partial<IpData>>({
