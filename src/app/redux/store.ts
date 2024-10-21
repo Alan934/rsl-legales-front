@@ -7,6 +7,7 @@ import { faqApi } from "./services/faqApi";
 import { contadorApi } from "./services/contadorApi";
 import { serviciosApi } from "./services/serviciosApi";
 import { ServiciosFormApi } from "./services/serviciosRequeridos";
+import { ipApi } from "./services/ipApi";
 
 export const store = configureStore({
   reducer: {
@@ -18,6 +19,7 @@ export const store = configureStore({
     [contadorApi.reducerPath]: contadorApi.reducer,
     [serviciosApi.reducerPath]: serviciosApi.reducer,
     [ServiciosFormApi.reducerPath]: ServiciosFormApi.reducer,
+    [ipApi.reducerPath]: ipApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat([
@@ -28,6 +30,7 @@ export const store = configureStore({
       contadorApi.middleware,
       serviciosApi.middleware,
       ServiciosFormApi.middleware,
+      ipApi.middleware,
     ]),
 });
 
