@@ -2,7 +2,7 @@ import { GetServerSideProps } from "next";
 import { usePostIpMutation } from "../../redux/services/ipApi"; // Importa tu mutación
 import { useEffect } from "react";
 
-export default function Home({ ip }: { ip: string }) {
+export default function OptenerIp({ ip }: { ip: string }) {
   const [postIp] = usePostIpMutation();
 
   /*useEffect(() => {
@@ -17,7 +17,7 @@ export default function Home({ ip }: { ip: string }) {
       }
     };
   
-    sendIpToBackend(); // Enviar la IP al cargar la página
+    sendIpToBackend();
   }, [ip, postIp]);*/
   useEffect(() => {
     const fetchIp = async () => {
@@ -38,7 +38,7 @@ export default function Home({ ip }: { ip: string }) {
   }, [postIp]);
 
   console.log("IP enviada"+ ip);
-  return null; // No retorna ninguna vista
+  return null; 
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ req }) => {

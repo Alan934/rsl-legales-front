@@ -1,4 +1,5 @@
 "use client";
+import OptenerIp from "./components/CapturarIp/ips";
 import HeroBanner from "@/app/components/HeroBanner/HeroBanner";
 import Form from "./components/form/Form";
 import ContadorFirmasContainer from "@/app/components/ContadorFirmas/ContadorFirmasContainer";
@@ -6,9 +7,10 @@ import AcordeonContainer from "./components/InfoDesplegable/AcordeonContainer";
 import AcordeonQuery from "./components/InfoDesplegable/AcordeonQuery";
 import DropdownSummaryContainer from "./components/InfoDesplegable/DropDownSummaryContainer";
 
-export default function Home() {
+export default function Home({ ip }: { ip: string }) {
   return (
     <div>
+      <OptenerIp ip={ip} />
       <HeroBanner
         imgUrl="/heroBanner.png"
         titulo="Un escribano en Mendoza es un gran aliado..."
