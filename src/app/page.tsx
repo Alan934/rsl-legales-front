@@ -7,10 +7,10 @@ import AcordeonContainer from "./components/InfoDesplegable/AcordeonContainer";
 import AcordeonQuery from "./components/InfoDesplegable/AcordeonQuery";
 import DropdownSummaryContainer from "./components/InfoDesplegable/DropDownSummaryContainer";
 
-export default function Home({ ip }: { ip: string }) {
+export default function Home() {
   return (
     <div>
-      <OptenerIp ip={ip} />
+      <OptenerIp />
       <HeroBanner
         imgUrl="/heroBanner.png"
         titulo="Un escribano en Mendoza es un gran aliado..."

@@ -2,7 +2,8 @@ import { GetServerSideProps } from "next";
 import { usePostIpMutation } from "../../redux/services/ipApi"; // Importa tu mutación
 import { useEffect } from "react";
 
-export default function OptenerIp({ ip }: { ip: string }) {
+//export default function OptenerIp({ ip }: { ip: string }) {
+export default function OptenerIp() {
   const [postIp] = usePostIpMutation();
 
   /*useEffect(() => {
@@ -26,18 +27,16 @@ export default function OptenerIp({ ip }: { ip: string }) {
         const data = await response.json();
         const ip = data.ip;
         console.log('IP obtenida de la API pública:', ip);
-  
+
         await postIp({ ip }).unwrap();
         console.log('IP enviada al backend:', ip);
       } catch (error) {
         console.error('Error al obtener o enviar la IP:', error);
       }
     };
-  
+
     fetchIp();
   }, [postIp]);
-
-  console.log("IP enviada"+ ip);
   return null; 
 }
 
