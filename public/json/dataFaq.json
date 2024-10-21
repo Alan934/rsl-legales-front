@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Para qué sirve un escribano en Argentina?",
+    "respuesta": "La función del escribano tiene que ver con la obligación de ajustar todos los actos y contratos que las partes deseen efectuar a los presupuestos de la ley. Por lo tanto, el escribano debe contar con amplios conocimientos jurídicos. Entre sus funciones se encuentra la estructuración legal de los hechos o negocios presentados por las partes a fin de que estos tengan los efectos jurídicos deseados El principal objetivo de la función notarial es dotar de certeza a las relaciones jurídicas y comerciales.",
+    "respuestaLista": []
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cómo autorizo a un hijo/hija menor a 18 años a que salga del país?",
+    "respuesta": "Se debe presentar los documentos de identidad de cada uno y del pasaporte y visa en caso de ser necesarios, si viajas con tu hijo menor de 18 años sin la compañía del otro progenitor necesitás su permiso o autorización. Ese permiso se puede hacer ante escribano público o ante las autoridades que correspondan.",
+    "respuestaLista": []
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Por qué se necesita un escribano para la compra de un inmueble?",
+    "respuesta": "A la hora de la compra-venta de un inmueble, los escribanos se necesitan para:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Asesorar de manera legal a ambas partes participantes de la compra-venta"
+      },
+      {
+        "id": 2,
+        "respuesta": "Verificar que la documentacion presentada por ambas partes sea autentica y que este al orden del dia"
+      },
+      {
+        "id": 3,
+        "respuesta": "Redactar el contrato de compra-venta como actualizar la escritura del inmueble en caso de ser necesario"
+      },
+      {
+        "id": 4,
+        "respuesta": "Comprobar y autenticar las firmas presentadas por ambas partes"
+      },
+      {
+        "id": 5,
+        "respuesta": "Inscribir al nuevo propietario del inmueble en el registro de propietarios correspondiente"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué documentos se legalizan a través de un escribano?",
+    "respuesta": "Los escribanos pueden legalizar y dar fe a un gran abanico de documentos, los mas comunes son:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Contratos"
+      },
+      {
+        "id": 2,
+        "respuesta": "Testamentos"
+      },
+      {
+        "id": 3,
+        "respuesta": "Poderes"
+      },
+      {
+        "id": 4,
+        "respuesta": "Actas"
+      },
+      {
+        "id": 5,
+        "respuesta": "Declaraciones Juradas"
+      },
+      {
+        "id": 6,
+        "respuesta": "Copias de Documentos"
+      },
+      {
+        "id": 7,
+        "respuesta": "Certificados de Identidad"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué es una escritura pública y para qué sirve?",
+    "respuesta": "Una escritura pública es un documento legal elaborado y autorizado por un escribano o notario. Este tipo de escritura tiene validez jurídica y se utiliza para formalizar actos y contratos que requieren un nivel adicional de seguridad y autenticidad.",
+    "respuestaLista": []
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cómo puedo realizar un poder notarial?",
+    "respuesta": "Para realizar un poder notarial se necesita:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Tanto el Poderante como el Apoderado deben ser mayores de 18 años y que se encuentren en plena posesion de facultades mentales"
+      },
+      {
+        "id": 2,
+        "respuesta": "Hacer entrega al escribano de un documento de identidad (DNI o pasaporte). En caso de tratarse de una persona jurídica, es decir, de una empresa, deberán aportarse los documentos que acrediten su constitución."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuáles son los requisitos para hacer un testamento cerrado?",
+    "respuesta": "Un testamento es un acto unilateral que celebra una persona en vida en donde decide cómo disponer de su patrimonio, para realizar un testamento se necesita: ",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "El testador debe presentarse ante un escribano, en caso de incapacidad para firmar o por problemas de vision, el testador debe acudir con 2 testigos"
+      },
+      {
+        "id": 2,
+        "respuesta": "El testador y los testigos deben proporcionar el Documento Nacional de Identidad (DNI) y el testador debe expresar como sera la distribucion de bienes y derechos"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué costos están asociados a los servicios de un escribano?",
+    "respuesta": "Los costos varian segun el servicio que se desea realizar, pero puedes ver los costos aproximados en este listado: https://www.colegio-escribanos.org.ar/archivo-de-protocolos-notariales-2/tarifas-de-tramites-y-servicios/",
+    "respuestaLista": []
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Cómo se formaliza una donación ante un escribano?",
+    "respuesta": "Donar es celebrar un acto jurídico mediante el cual una persona (“donante”) decide disponer un bien (o varios) a favor de otra persona (“donatario”) en forma gratuita. Para formalizar una donacion se necesita:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Documento Nacional de Identidad (DNI) de todos los intervinientes y certificado de estado civil"
+      },
+      {
+        "id": 2,
+        "respuesta": "Escritura o titulo de propiedad del bien que se dona en caso de un inmueble, vehiculo, etc."
+      },
+      {
+        "id": 3,
+        "respuesta": "Si el bien donado es un inmueble, vehiculo, etc; Se debe aportar un comprobante de libre de deuda o indicar la deuda pendiente"
+      },
+      {
+        "id": 4,
+        "respuesta": "Cheque bancario o comprobante de transferencia de dinero donado en caso de realizar una donacion de dinero"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuál es el rol del escribano en la constitución de una sociedad?",
+    "respuesta": "El escribano actúa como un garante de la legalidad del proceso, protegiendo los intereses de los socios y asegurando el cumplimiento de la normativa aplicable. Las funciones claves que desempeña son:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Redacción de la Escritura: El escribano elabora la escritura pública que contiene los estatutos sociales, que establecen las reglas de funcionamiento de la sociedad."
+      },
+      {
+        "id": 2,
+        "respuesta": "Asesoramiento: Proporciona orientación legal sobre la forma jurídica más adecuada para la sociedad y los requisitos específicos según la legislación vigente."
+      },
+      {
+        "id": 3,
+        "respuesta": "Verificación de Identidad: Confirma la identidad de los socios o fundadores, asegurando que todas las partes involucradas son quienes dicen ser."
+      },
+      {
+        "id": 4,
+        "respuesta": "Certificación: Certifica la firma de los socios en la escritura y la autenticidad del documento."
+      },
+      {
+        "id": 5,
+        "respuesta": "Registro: Puede encargarse de gestionar el registro de la sociedad en el registro público correspondiente, lo que le da a la sociedad personalidad jurídica."
+      },
+      {
+        "id": 6,
+        "respuesta": "Guardia de Documentación: Conserva una copia de la escritura y otros documentos relevantes, garantizando su integridad y acceso futuro."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "pregunta": "¿En qué situaciones necesito un escribano para trámites sucesorios?",
+    "respuesta": "Es necesario acudir a un escribano para trámites sucesorios en varias situaciones, entre las más comunes se encuentran:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Testamento: Si el fallecido dejó un testamento, se requiere un escribano para abrirlo y certificar su validez."
+      },
+      {
+        "id": 2,
+        "respuesta": "Partición de la herencia: Cuando se trata de dividir los bienes entre los herederos, el escribano puede redactar el acuerdo de partición y garantizar que se realice de manera legal."
+      },
+      {
+        "id": 3,
+        "respuesta": "Aceptación de herencia: Para formalizar la aceptación de la herencia, especialmente si hay bienes inmuebles o derechos que requieren un acto formal."
+      },
+      {
+        "id": 4,
+        "respuesta": "Trámites de registro: Si hay bienes que deben ser transferidos a nombre de los herederos, el escribano puede gestionar los registros necesarios."
+      },
+      {
+        "id": 5,
+        "respuesta": "Redacción de documentos: Para redactar cualquier documento relacionado con la sucesión, como acuerdos entre herederos o renuncias a la herencia."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué debo llevar al momento de firmar una escritura?",
+    "respuesta": "Al momento de firmar una escritura, es importante llevar ciertos documentos y cumplir con algunos requisitos. Aquí te indico lo que generalmente se necesita:",
+    "respuestaLista": [
+      {
+        "id": 1,
+        "respuesta": "Llevar tu documento de identidad (DNI, pasaporte, etc.) para verificar tu identidad."
+      },
+      {
+        "id": 2,
+        "respuesta": "Documentacion relacionada a la propiedad como: Contratos, Testamento (si es necesario), Documentos que indiquen el estado de la propiedad ya sea legal y/o financiera"
+      },
+      {
+        "id": 3,
+        "respuesta": "Recibos de cualquier pago que debas realizar en el acto, como gastos notariales o impuestos."
+      },
+      {
+        "id": 4,
+        "respuesta": "Datos de los demás firmantes o herederos, si aplica, como sus identificaciones y datos de contacto."
+      },
+      {
+        "id": 5,
+        "respuesta": "Si actúas en representación de otra persona, lleva el poder notarial correspondiente."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Es necesario que ambas partes estén presentes al firmar una escritura?",
+    "respuesta": "Es necesario que ambas partes (comprador y vendedor) esten presentes a la hora de firmar la escritura, sin embargo, se puede designar a un tercero con un poder notarial para que represente a una de las partes",
+    "respuestaLista":[]
+  }
+]

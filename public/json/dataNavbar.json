@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "nombre":"Servicios de escribanía",
+        "href":"#servicios"
+    },
+    {
+        "id":2,
+        "nombre":"Servicios de abogados",
+        "href":"#servicios"
+    },
+    {
+        "id":3,
+        "nombre":"Preguntas frecuentes",
+        "href":"#faq"
+    }
+]

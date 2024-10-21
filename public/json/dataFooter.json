@@ -1,0 +1,144 @@
+[
+    {
+      "id": 1,
+      "titleFooter": "FooterPorDefecto",
+      "createdAt": "2024-07-31T14:02:10.000Z",
+      "updatedAt": "2024-07-31T14:02:09.000Z",
+      "categoriafooters": [
+        {
+          "id": 2,
+          "titleCategoriaFooter": "Empresa",
+          "id_footer": 1,
+          "createdAt": "2024-07-31T17:05:04.000Z",
+          "updatedAt": "2024-07-31T17:05:04.000Z",
+          "subcategoriafooters": [
+            {
+              "id": 1,
+              "nombreSubCategoriaFooter": "Servicios de Escribanía",
+              "id_categoriafooter": 2,
+              "createdAt": "2024-08-14T16:34:28.000Z",
+              "updatedAt": "2024-08-14T16:34:28.000Z",
+              "href":"#servicios"
+            },
+            {
+              "id": 5,
+              "nombreSubCategoriaFooter": "Servicio de Abogados",
+              "id_categoriafooter": 2,
+              "createdAt": "2024-08-14T16:34:28.000Z",
+              "updatedAt": "2024-08-14T16:34:28.000Z",
+              "href":"#servicios"
+            },
+            {
+              "id": 4,
+              "nombreSubCategoriaFooter": "Preguntas Frecuentes",
+              "id_categoriafooter": 2,
+              "createdAt": "2024-08-14T16:34:28.000Z",
+              "updatedAt": "2024-08-14T16:34:28.000Z",
+              "href":"#faq"
+            }
+          
+          ]
+        },
+        
+        {
+          "id": 3,
+          "titleCategoriaFooter": "Legales",
+          "id_footer": 1,
+          "createdAt": "2024-07-31T17:05:09.000Z",
+          "updatedAt": "2024-07-31T17:05:09.000Z",
+          "subcategoriafooters": [
+            {
+                "id": 6,
+                "nombreSubCategoriaFooter": "Política de Privacidad",
+                "id_categoriafooter": 3,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              },
+            {
+              "id": 8,
+              "nombreSubCategoriaFooter": "Terminos y Condiciones",
+              "id_categoriafooter": 3,
+              "createdAt": "2024-08-14T16:34:28.000Z",
+              "updatedAt": "2024-08-14T16:34:28.000Z"
+            }
+            
+          ]
+        },
+        {
+            "id": 4,
+            "titleCategoriaFooter": "Contacto",
+            "id_footer": 1,
+            "createdAt": "2024-07-31T17:05:13.000Z",
+            "updatedAt": "2024-07-31T17:05:13.000Z",
+            "subcategoriafooters": [
+              {
+                "id": 17,
+                "nombreSubCategoriaFooter": "administracion@rslegales.com",
+                "urlIconSubCategoriaFooter": "https://res.cloudinary.com/dfwlibmrf/image/upload/v1727896289/cwfpxhlbpckjeuf5v5df.svg",
+                "id_categoriafooter": 4,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              },
+              {
+                "id": 9,
+                "nombreSubCategoriaFooter": "+5492612795816",
+                "urlIconSubCategoriaFooter": "https://res.cloudinary.com/de9ojxknm/image/upload/v1722532720/Footer/bybzpetuzhkypkmlkwax.svg",
+                "id_categoriafooter": 4,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              },
+              {
+                "id": 10,
+                "nombreSubCategoriaFooter": "lorem ipsum ",
+                "urlIconSubCategoriaFooter": "https://res.cloudinary.com/de9ojxknm/image/upload/v1722532720/Footer/wkbxljhpdgqs9umsebav.svg",
+                "id_categoriafooter": 4,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              },
+              {
+                "id": 11,
+                "nombreSubCategoriaFooter": "lorem ipsum ",
+                "urlIconSubCategoriaFooter": "https://res.cloudinary.com/de9ojxknm/image/upload/v1722532720/Footer/asxcxl48lwvatpghy0bb.svg",
+                "id_categoriafooter": 4,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              },
+              {
+                "id": 12,
+                "nombreSubCategoriaFooter": "lorem ipsum ",
+                "urlIconSubCategoriaFooter": "https://res.cloudinary.com/de9ojxknm/image/upload/v1722532777/Footer/kephvcuyrz2pzadsgerz.svg",
+                "id_categoriafooter": 4,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              }
+           
+             
+            ]
+          },
+          {
+            "id": 5,
+            "titleCategoriaFooter": "Escribanos en Mendoza",
+            "id_footer": 1,
+            "createdAt": "2024-07-31T17:05:16.000Z",
+            "updatedAt": "2024-07-31T17:05:16.000Z",
+            "subcategoriafooters": [
+              {
+                "id": 13,
+                "nombreSubCategoriaFooter": "Escribanos en Mendoza",
+                "id_categoriafooter": 5,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              },
+              {
+                "id": 14,
+                "nombreSubCategoriaFooter": "Jujuy 498 y Videla Castillo, Ciudad, Mendoza",
+                "id_categoriafooter": 5,
+                "createdAt": "2024-08-14T16:34:28.000Z",
+                "updatedAt": "2024-08-14T16:34:28.000Z"
+              }
+            ]
+          }
+      ],
+      "categoriaFooters": []
+    }
+  ]

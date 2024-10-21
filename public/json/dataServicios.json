@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "nombreServicio": "Certificaciones Notariales",
+    "detalleServicio": [
+      {
+        "id": 1,
+        "detalle": "Firmas"
+      },
+      {
+        "id": 2,
+        "detalle": "Direcciones"
+      },
+      {
+        "id": 3,
+        "detalle": "Fotocopias"
+      },
+      {
+        "id": 4,
+        "detalle": "Fotografias"
+      },
+      {
+        "id": 5,
+        "detalle": "Firmas Digitales"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombreServicio": "OP: Inmobiliarias",
+    "detalleServicio": [
+      {
+        "id": 1,
+        "detalle": "Fideicomisos"
+      },
+      {
+        "id": 2,
+        "detalle": "CompraVenta"
+      },
+      {
+        "id": 3,
+        "detalle": "Donaciones"
+      },
+      {
+        "id": 4,
+        "detalle": "Testamentos"
+      },
+      {
+        "id": 5,
+        "detalle": "Alquileres"
+      },
+      {
+        "id": 6,
+        "detalle": "Entre Otros"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombreServicio": "Contratos Privados",
+    "detalleServicio": [
+      {
+        "id": 1,
+        "detalle": "Cesiones"
+      },
+      {
+        "id": 2,
+        "detalle": "Locacion de Inmuebles"
+      },
+      {
+        "id": 3,
+        "detalle": "Obras y Servicios"
+      },
+      {
+        "id": 4,
+        "detalle": "Mutuo"
+      }
+    ]
+  }
+]
