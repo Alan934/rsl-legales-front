@@ -5,13 +5,14 @@ import MapWrapper from "../map/MapWrapper/MapWrapper";
 import { useState } from "react";
 import { useGetFooterByIdQuery } from "@/app/redux/services/footerApi";
 import { formatUrl } from "@/app/utils/urlUtils";
-import CapturarIp from "../CapturarIp/capturarIp";
+import { usePostIpMutation } from "../../redux/services/ipApi";
 
 interface FooterProps {
   id: number;
 }
 
 const Footer: React.FC<FooterProps> = ({ id }) => {
+  const [postIp] = usePostIpMutation();
   const { data, error } = useGetFooterByIdQuery(id);
   const [openSubcategories, setOpenSubcategories] = useState<{
     [key: number]: boolean;
@@ -25,6 +26,21 @@ const Footer: React.FC<FooterProps> = ({ id }) => {
       [subcategoryId]: !prevState[subcategoryId],
     }));
   };
+
+  const obtenerIp = async () => {
+    // Capturar IP aquí
+    try {
+      const response = await fetch('https://api64.ipify.org?format=json');
+      const data = await response.json();
+      const ip = data.ip;
+      console.log('IP obtenida de la API pública:', ip);
+      await postIp({ ip }).unwrap(); // Aquí debes llamar a tu mutación para enviar la IP
+      console.log('IP enviada al backend:', ip);
+    } catch (error) {
+      console.error('Error al obtener o enviar la IP:', error);
+    }
+  };
+
   // Obtener el año actual
   const currentYear = new Date().getFullYear();
   return (
@@ -57,7 +73,7 @@ const Footer: React.FC<FooterProps> = ({ id }) => {
                       {
                       subcategoria.id === 9 ? (
                         // Si subcategoria.id es 9
-                        <Link href="https://wa.me/+5492612795816" onClick={() => <CapturarIp />}>
+                        <Link href="https://wa.me/+5492612795816" target="_blank" onClick={ obtenerIp }>
                           <h4 className="text-lg">
                             {subcategoria.nombreSubCategoriaFooter}
                           </h4>

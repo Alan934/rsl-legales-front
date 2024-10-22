@@ -1,4 +1,4 @@
-import { GetServerSideProps } from "next";
+/*import { GetServerSideProps } from "next";
 import { usePostIpMutation } from "../../redux/services/ipApi";
 import { useEffect } from "react";
 
@@ -33,5 +33,5 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) => {
       ip: ip || "IP desconocida",
     },
   };
-};
+};*/
 
