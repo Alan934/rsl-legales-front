@@ -1,6 +1,8 @@
 import { lexend } from "@/fonts/fonts";
 import Image from "next/image";
-import CapturarIp from "../CapturarIp/capturarIp";
+import { usePostIpMutation } from "../../redux/services/ipApi";
+
+
 
 interface HeroBannerTypes {
   imgUrl: string;
@@ -23,6 +25,21 @@ export default function HeroBanner({
   heightHeroBanner,
   id,
 }: HeroBannerTypes) {
+  const [postIp] = usePostIpMutation();
+
+  const obtenerIp = async () => {// Capturar IP
+    try {
+      const response = await fetch('https://api64.ipify.org?format=json');
+      const data = await response.json();
+      const ip = data.ip;
+      console.log('IP obtenida de la API pública:', ip);
+      await postIp({ ip }).unwrap();
+      console.log('IP enviada al backend:', ip);
+    } catch (error) {
+      console.error('Error al obtener o enviar la IP:', error);
+    }
+  };
+
   return (
     <div id={id} className="overflow-x-hidden">
       <div
@@ -55,7 +72,8 @@ export default function HeroBanner({
               <div className="w-full p-4">
                 <a href="https://wa.me/+5492612795816"
                   className="text-white rounded-lg p-2 font-semibold text-base md:text-lg lg:text-2xl"
-                  onClick={() => <CapturarIp />}
+                  target="_blank" 
+                  onClick={ obtenerIp }
                   style={{ background: `${btnColor}` }}
                 >
                   {btnTexto}
@@ -71,7 +89,7 @@ export default function HeroBanner({
             }
             style={{ background: "#EAEAEA33" }}
           >
-            <a href="https://wa.me/+5492612795816">
+            <a href="https://wa.me/+5492612795816" target="_blank" onClick={ obtenerIp }>
               <Image
                 src={"/whatsappLogo.png"}
                 alt="logo"
