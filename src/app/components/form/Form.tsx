@@ -13,6 +13,7 @@ export default function Form() {
     servicioId: number;
     telefono: string;
     mensaje: string;
+    ip: string | null;
   }
 
   const [formSuccess, setFormSuccess] = useState(false);

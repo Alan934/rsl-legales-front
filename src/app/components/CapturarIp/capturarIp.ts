@@ -1,8 +1,8 @@
-import { GetServerSideProps } from "next";
-import { usePostIpMutation } from "../../redux/services/ipApi";
+"use client";
 import { useEffect } from "react";
+import { usePostIpMutation } from "../../redux/services/ipApi";
 
-export default function OptenerIp() {
+const CapturarIp: React.FC = () => {
   const [postIp] = usePostIpMutation();
 
   useEffect(() => {
@@ -22,16 +22,8 @@ export default function OptenerIp() {
 
     fetchIp();
   }, [postIp]);
-  return null;
-}
 
-export const getServerSideProps: GetServerSideProps = async ({ req }) => {
-  const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress || null;
-  console.log("IP obtenida en el servidor:", ip);
-  return {
-    props: {
-      ip: ip || "IP desconocida",
-    },
-  };
+  return null;
 };
 
+export default CapturarIp;

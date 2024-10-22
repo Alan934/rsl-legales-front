@@ -5,6 +5,7 @@ import MapWrapper from "../map/MapWrapper/MapWrapper";
 import { useState } from "react";
 import { useGetFooterByIdQuery } from "@/app/redux/services/footerApi";
 import { formatUrl } from "@/app/utils/urlUtils";
+import CapturarIp from "../CapturarIp/capturarIp";
 
 interface FooterProps {
   id: number;
@@ -56,7 +57,7 @@ const Footer: React.FC<FooterProps> = ({ id }) => {
                       {
                       subcategoria.id === 9 ? (
                         // Si subcategoria.id es 9
-                        <Link href="https://wa.me/+5492612795816">
+                        <Link href="https://wa.me/+5492612795816" onClick={() => <CapturarIp />}>
                           <h4 className="text-lg">
                             {subcategoria.nombreSubCategoriaFooter}
                           </h4>

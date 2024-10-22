@@ -1,5 +1,4 @@
 "use client";
-import OptenerIp from "./components/CapturarIp/ips";
 import HeroBanner from "@/app/components/HeroBanner/HeroBanner";
 import Form from "./components/form/Form";
 import ContadorFirmasContainer from "@/app/components/ContadorFirmas/ContadorFirmasContainer";
@@ -10,7 +9,6 @@ import DropdownSummaryContainer from "./components/InfoDesplegable/DropDownSumma
 export default function Home() {
   return (
     <div>
-      <OptenerIp />
       <HeroBanner
         imgUrl="/heroBanner.png"
         titulo="Un escribano en Mendoza es un gran aliado..."
