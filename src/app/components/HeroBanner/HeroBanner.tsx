@@ -1,5 +1,6 @@
 import { lexend } from "@/fonts/fonts";
 import Image from "next/image";
+import CapturarIp from "../CapturarIp/capturarIp";
 
 interface HeroBannerTypes {
   imgUrl: string;
@@ -54,6 +55,7 @@ export default function HeroBanner({
               <div className="w-full p-4">
                 <a href="https://wa.me/+5492612795816"
                   className="text-white rounded-lg p-2 font-semibold text-base md:text-lg lg:text-2xl"
+                  onClick={() => <CapturarIp />}
                   style={{ background: `${btnColor}` }}
                 >
                   {btnTexto}
